@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:clean": "rimraf dist",
+    "build:rollup": "rollup -c",
+    "build": "npm run build:clean && npm run build:rollup"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "openai": "^4.100.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.7"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "dotenv": "^16.5.0",
+    "html-entities": "^2.6.0",
+    "node-fetch": "^3.3.2",
+    "rimraf": "^5.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "typescript": "^5.4.5",
+    "vite": "^6.3.3"
+  }
+}

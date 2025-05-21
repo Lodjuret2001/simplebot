@@ -1,0 +1,19 @@
+[
+  {
+    "role": "assistant",
+    "message": {
+      "type": "text",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, nisl vel tincidunt faucibus, nulla nisl aliquet risus, ut efficitur lorem lacus at nisl.\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed auctor sem ut diam pulvinar, ac placerat orci efficitur.\n\nDuis at nibh vitae nulla fermentum scelerisque. Curabitur et purus non leo laoreet pretium."
+    }
+  },
+  {
+    "role": "assistant",
+    "message": {
+      "type": "demo",
+      "content": {
+        "title": "Demo",
+        "description": "This is my demo description"
+      }
+    }
+  }
+]
