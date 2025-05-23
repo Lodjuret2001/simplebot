@@ -23,6 +23,8 @@ npm install
 cp .env.example .env
 ```
 
+Enter OpenAI api dashboard and create a assistant and in the ./src/data folder you will find a simple JSON_SCHEMA for the response_format for the chatbot.
+
 ### 4. Start the development server
 
 ```bash
