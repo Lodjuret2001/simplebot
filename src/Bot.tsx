@@ -103,7 +103,7 @@ const Bot = (props: BotProps) => {
         role: "assistant",
         message: {
           type: "text",
-          content: "Något gick fel, försök igen!",
+          content: "Something went wrong, check console.log!",
         },
       };
       setChatbotMessages((prev) => [...prev, errorMessage]);
